@@ -149,7 +149,7 @@
                 <div class="education-experience">
                   <small class="date">2019 - 2023</small>
                   <h3 class="h5 date-title">B.Tech in Computer Science</h3>
-                  <p>Indian Institute of Information Technology, Pune</p>
+                  <a href="https://www.iiitp.ac.in/"><p>Indian Institute of Information Technology, Pune</p></a>
 
                 </div>
                 
@@ -158,7 +158,7 @@
                 <div class="education-experience">
                   <small class="date">2024 - Current</small>
                   <h3 class="h5 date-title">MSc in Advanced Computer Science</h3>
-                  <p>University of Manchester, Manchester</p>
+                  <a href="https://www.manchester.ac.uk/"><p>University of Manchester, Manchester</p></a>
                 </div>
               </div>
             </div>
@@ -308,7 +308,6 @@
         subject: subject,
         message: message
       };
-      alert(email, subject, message)
 
       emailjs.send('service_fmdcfuu', 'template_gr0zhjk', templateParams)
         .then((response) => {
